@@ -322,7 +322,9 @@ const WilderNames = () => {
   };
 
   return (
-    <div className="wilder-detector-container">
+    <div className={`wilder-detector-container ${
+      currentStep === 'reveal' || currentStep === 'selfAssigned' ? 'no-background' : ''
+    }`}>
       <div className="title">
         WilderNameDetector2000™
       </div>
