@@ -280,14 +280,13 @@ const WilderNames = () => {
       <div className="completion-counter">
         <span className="counter-text">{completionCount}/{totalMembers} Complete</span>
       </div>
-      <h2>😅 Oops!</h2>
+      <h2>Oops!</h2>
       <div className="reveal-message">
         <p>Oh no! You've drawn yourself, {selectedName}!</p>
         <div className="reveal-box">
           <h3>🎲 Assignment Conflict</h3>
           <p style={{margin: 0, fontSize: '1.1rem'}}>Please message the family chat to propose a redraw</p>
         </div>
-        <p>Everyone else has their assignments locked in, so we'll need to shuffle things around a bit! 🎁</p>
       </div>
       <button 
         className="secondary-button"
