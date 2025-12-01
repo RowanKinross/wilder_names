@@ -18,7 +18,7 @@
 
 .wilder-detector-container.no-background {
   background-image: none;
-  background-color: #f8f9fa;
+  background-color: #fdfdfd;
 }
 
 @media (max-width: 768px) {
