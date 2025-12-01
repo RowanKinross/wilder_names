@@ -146,8 +146,9 @@ const WilderNames = () => {
       <div className="completion-counter">
         <span className="counter-text">{completionCount}/{totalMembers} Complete</span>
       </div>
-      <h2>Welcome to the WilderNameDetector2000™</h2>
-      <p>Help us figure out the Wilder name assignments!</p>
+      <div className="welcome-message">
+        <p>Help us figure out the Wilder name assignments!</p>
+      </div>
       <button 
         className="primary-button"
         onClick={() => setCurrentStep('selectName')}
